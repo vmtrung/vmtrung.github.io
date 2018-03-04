@@ -8,6 +8,11 @@ SITEURL = ''
 STATIC_PATHS = ['images']
 THEME = 'pelican-themes/voidy-bootstrap'
 
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb.markup']
+
 PATH = 'content'
 
 TIMEZONE = 'Asia/Ho_Chi_Minh'
