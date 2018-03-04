@@ -6,6 +6,7 @@ AUTHOR = 'Trung Vo'
 SITENAME = 'Unlock data power'
 SITEURL = ''
 STATIC_PATHS = ['images']
+THEME = 'pelican-themes/voidy-bootstrap'
 
 PATH = 'content'
 
