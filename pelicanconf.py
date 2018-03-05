@@ -4,13 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Trung Vo'
 SITENAME = 'Unlock data power'
-SITEURL = ''
+SITEURL = 'http://vmtrung.github.io'
 STATIC_PATHS = ['images']
 THEME = 'pelican-themes/voidy-bootstrap'
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 
 PATH = 'content'
